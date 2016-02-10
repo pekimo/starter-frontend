@@ -1,0 +1,46 @@
+{
+  "name": "starter-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salting/starter-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salting/starter-frontend/issues"
+  },
+  "homepage": "https://github.com/salting/starter-frontend#readme",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "9.0.8",
+    "chai": "2.3.0",
+    "grunt": "0.4.5",
+    "grunt-exec": "0.4.6",
+    "gulp": "3.8.11",
+    "gulp-clean": "0.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-useref": "^1.3.0",
+    "mocha": "2.2.4",
+    "require-dir": "^0.3.0",
+    "run-sequence": "1.0.2",
+    "sinon": "1.14.1",
+    "vinyl-source-stream": "1.1.0"
+  }
+}
